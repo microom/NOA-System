@@ -16,7 +16,7 @@ NOA Systemは現在開発中です。
 
 このプロジェクトのドキュメントや開発記録は、基本的に日本語で書いていきます。
 
-ごめんなさい、私は英語があまり得意ではありません。日本語以外で読んでくださる方は、ブラウザの翻訳機能などを使って読んでもらえたら嬉しいです。
+Sorry, English isn't my strong suit, so most of the documentation and development notes here are written in Japanese. If you'd like to follow along, I'd be happy if you use your browser's translation feature or any translation tool you prefer. Thanks for taking an interest in the project!
 
 ## Project Direction
 
