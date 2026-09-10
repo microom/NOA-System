@@ -2,29 +2,30 @@
 
 **REPLAY THE FUTURE**
 
-NOA System is a retro game preservation and playback project focused not only on running old games, but on preserving the context around them: how they are identified, imported, played, saved, and revisited.
+NOA Systemは、昔のゲームを単に動かすだけではなく、ゲームをどう識別し、取り込み、遊び、保存し、もう一度そこへ戻ってくるかまで含めて残していくためのレトロゲーム保存・再生プロジェクトです。
 
-This repository is the public-facing home of the project.
+このリポジトリは、NOA Systemの公開向け情報を置く場所です。
 
-## Status
+## 現在の状況
 
-NOA System is currently under active development.
+NOA Systemは現在開発中です。
 
-Public development notes will be published in [`devlog/`](devlog/), while broader project documentation will live in [`docs/`](docs/).
+公開可能な開発記録は [`devlog/`](devlog/) に、プロジェクト全体の説明や利用者向け文書は [`docs/`](docs/) に追加していく予定です。
 
 ## Language
 
-- English: this file
-- Japanese: [`README_JA.md`](README_JA.md)
+このプロジェクトのドキュメントや開発記録は、基本的に日本語で書いていきます。
+
+ごめんなさい、私は英語があまり得意ではありません。日本語以外で読んでくださる方は、ブラウザの翻訳機能などを使って読んでもらえたら嬉しいです。
 
 ## Project Direction
 
-NOA System is being developed around a few core ideas:
+NOA Systemでは、いくつかの考え方を大切にして開発しています。
 
-- games should be the center of the experience, not emulator settings;
-- preserved data should remain traceable to its sources;
-- generated databases and artifacts should be reproducible where possible;
-- saves and play history are part of the experience worth preserving;
-- platform-specific implementation should not define the project itself.
+- エミュレータの設定ではなく、ゲームそのものを体験の中心にする
+- 保存する情報は、できる限り出典まで追跡できるようにする
+- Databaseや生成物は、可能な限り再生成できる形にする
+- Saveや遊んだ記録も、残すべき体験の一部として扱う
+- 特定Platformの実装都合そのものをProjectの定義にしない
 
-More detailed public documentation will be added as the project develops.
+詳しい公開ドキュメントは、開発の進行に合わせて追加していきます。
