@@ -70,6 +70,16 @@ def token_from_env() -> str | None:
     )
 
 
+def token_source() -> str:
+    if os.environ.get("RPF_READ_TOKEN"):
+        return "RPF_READ_TOKEN"
+    if os.environ.get("GH_TOKEN"):
+        return "GH_TOKEN"
+    if os.environ.get("GITHUB_TOKEN"):
+        return "GITHUB_TOKEN"
+    return "none"
+
+
 def request(url: str, token: str | None, accept: str = "application/vnd.github+json") -> urllib.response.addinfourl:
     headers = {
         "Accept": accept,
@@ -82,7 +92,9 @@ def request(url: str, token: str | None, accept: str = "application/vnd.github+j
 
 
 def api_json(url: str, token: str | None) -> Any:
+    print(f"[api] GET {url}")
     with request(url, token) as response:
+        print(f"[api] OK {response.status} {response.geturl()}")
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -144,15 +156,30 @@ def list_issue_numbers(repo: str, token: str | None) -> list[int]:
 
 
 def collect_issue_image_urls(repo: str, issue_number: int, token: str | None) -> list[str]:
+    print(f"#{issue_number}: fetching issue")
     issue = get_issue(repo, issue_number, token)
-    urls = extract_image_urls(issue.get("body"))
+    body_urls = extract_image_urls(issue.get("body"))
+    print(f"#{issue_number}: issue fetched; body images={len(body_urls)}")
+
+    urls = list(body_urls)
     seen = set(urls)
 
-    for comment in get_issue_comments(repo, issue_number, token):
-        for url in extract_image_urls(comment.get("body")):
+    print(f"#{issue_number}: fetching comments")
+    comments = get_issue_comments(repo, issue_number, token)
+    print(f"#{issue_number}: comments fetched; count={len(comments)}")
+
+    for comment_index, comment in enumerate(comments, start=1):
+        comment_urls = extract_image_urls(comment.get("body"))
+        if comment_urls:
+            print(f"#{issue_number}: comment {comment_index} images={len(comment_urls)}")
+        for url in comment_urls:
             if url not in seen:
                 seen.add(url)
                 urls.append(url)
+
+    print(f"#{issue_number}: total unique images={len(urls)}")
+    for image_index, url in enumerate(urls, start=1):
+        print(f"#{issue_number}: image {image_index}: {url}")
 
     return urls
 
@@ -206,11 +233,41 @@ def extension_from_url_or_content_type(url: str, content_type: str | None) -> st
 def download(url: str, token: str | None) -> tuple[bytes, str | None, str]:
     # urllib follows GitHub redirects. Keep authentication for the initial request;
     # signed private-user-images URLs generally authorize the redirected download.
+    print(f"[download] GET {url}")
     with request(url, token, accept="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8") as response:
         data = response.read()
         content_type = response.headers.get("Content-Type")
         final_url = response.geturl()
+        print(
+            f"[download] OK {response.status}; final_url={final_url}; "
+            f"content_type={content_type!r}; bytes={len(data)}"
+        )
     return data, content_type, final_url
+
+
+def print_http_error(exc: urllib.error.HTTPError) -> None:
+    content_type = exc.headers.get("Content-Type") if exc.headers else None
+    location = exc.headers.get("Location") if exc.headers else None
+    print(
+        f"GitHub HTTP error {exc.code}: url={exc.geturl()} reason={exc.reason!r} "
+        f"content_type={content_type!r} location={location!r}",
+        file=sys.stderr,
+    )
+
+    try:
+        body = exc.read().decode("utf-8", errors="replace")
+    except Exception as body_exc:
+        print(f"response body could not be read: {body_exc}", file=sys.stderr)
+        return
+
+    # HTML error pages can be very large and add little signal to Actions logs.
+    # Keep only a compact preview while preserving JSON/API error details.
+    preview = body.strip().replace("\r", "")[:1200]
+    if preview:
+        print("response body preview:", file=sys.stderr)
+        print(preview, file=sys.stderr)
+        if len(body.strip()) > len(preview):
+            print("... [truncated]", file=sys.stderr)
 
 
 def import_issue(
@@ -231,7 +288,7 @@ def import_issue(
     skipped = 0
     assets: dict[str, Any] = manifest.setdefault("assets", {})
 
-    for url in urls:
+    for image_index, url in enumerate(urls, start=1):
         existing = assets.get(url)
         if existing:
             target = output_dir / existing["file"]
@@ -240,7 +297,15 @@ def import_issue(
                 skipped += 1
                 continue
 
-        data, content_type, final_url = download(url, token)
+        print(f"#{issue_number}: downloading image {image_index}/{len(urls)}")
+        try:
+            data, content_type, final_url = download(url, token)
+        except urllib.error.HTTPError as exc:
+            print(
+                f"#{issue_number}: image {image_index}/{len(urls)} download failed; source_url={url}",
+                file=sys.stderr,
+            )
+            raise
 
         if existing:
             filename = existing["file"]
@@ -285,11 +350,17 @@ def main() -> int:
         return 2
 
     token = token_from_env()
+    print(f"auth: token source={token_source()}")
     if not token:
         print(
             "warning: RPF_READ_TOKEN/GH_TOKEN/GITHUB_TOKEN is not set; this will fail for private repositories",
             file=sys.stderr,
         )
+
+    print(
+        f"run: source_repo={args.source_repo} output_dir={args.output_dir} "
+        f"issues={args.issue or 'ALL'} dry_run={args.dry_run} overwrite={args.overwrite}"
+    )
 
     manifest_path = args.output_dir / MANIFEST_NAME
     manifest = load_manifest(manifest_path)
@@ -320,8 +391,7 @@ def main() -> int:
         return 0
 
     except urllib.error.HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace")
-        print(f"GitHub HTTP error {exc.code}: {body}", file=sys.stderr)
+        print_http_error(exc)
         return 1
     except Exception as exc:
         print(f"error: {exc}", file=sys.stderr)
