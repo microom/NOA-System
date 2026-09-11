@@ -8,7 +8,8 @@ Examples:
     python tools/import_rpf_issue_images.py --all
 
 Authentication:
-    Set GH_TOKEN or GITHUB_TOKEN to a token that can read the source repository.
+    Set RPF_READ_TOKEN to a token that can read the source repository.
+    GH_TOKEN and GITHUB_TOKEN are also supported as fallbacks for local use.
     RetroPiFreak is private, so cross-repository read permission is required.
 
 Naming:
@@ -62,7 +63,11 @@ CONTENT_TYPE_EXTENSIONS = {
 
 
 def token_from_env() -> str | None:
-    return os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    return (
+        os.environ.get("RPF_READ_TOKEN")
+        or os.environ.get("GH_TOKEN")
+        or os.environ.get("GITHUB_TOKEN")
+    )
 
 
 def request(url: str, token: str | None, accept: str = "application/vnd.github+json") -> urllib.response.addinfourl:
@@ -282,7 +287,7 @@ def main() -> int:
     token = token_from_env()
     if not token:
         print(
-            "warning: GH_TOKEN/GITHUB_TOKEN is not set; this will fail for private repositories",
+            "warning: RPF_READ_TOKEN/GH_TOKEN/GITHUB_TOKEN is not set; this will fail for private repositories",
             file=sys.stderr,
         )
 
