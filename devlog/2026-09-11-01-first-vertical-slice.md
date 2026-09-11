@@ -10,6 +10,8 @@ SessionはまだDummy。画面が切り替わり、状態がRunningになり、E
 
 それでも、ここから始めることに意味がありました。
 
+---
+
 ## 最初に作りたかったもの
 
 最初に確認したかったのは、「エミュレータを起動できるか」ではなく、NOA Systemをひとつのゲーム機として見たときの最小体験が成立するかどうかでした。
@@ -36,6 +38,8 @@ LibraryそのものをHomeとして扱い、機能ではなくゲームを中心
 
 先にこの流れを作っておけば、その先に本物のROM起動、Save、ROM Database、Cartridge ReaderやHardware連携を載せても、全体の骨格を壊さずに育てていけると考えました。
 
+---
+
 ## Windowsで、まず一周させる
 
 最初のVertical SliceはWindows Desktop上で作りました。
@@ -50,6 +54,8 @@ PLAYするとDummy Sessionへ入り、ESCで抜けると元のGame Detailへ戻�
 
 「何が表示されるか」よりも、「どこから入り、どこへ戻るのか」を先に決めたかったからです。
 
+---
+
 ## 小さくても、骨格は本物にする
 
 Dummyだからといって、全部を使い捨てにはしませんでした。
@@ -61,6 +67,8 @@ Libraryの読み込み、Sessionの状態遷移、Frontendの一連のNavigation
 最初の実装先はWindowsですが、NOA Systemそのものを「Windowsアプリ」として定義したくはありません。
 
 将来Raspberry Piや別の環境へ持っていくときに、今いるPlatformの都合がProjectの中心へ入り込まないようにするためです。
+
+---
 
 ## まだゲームは動かない。でも、ゲーム機は動き始めた
 
