@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Assets/Logo/noa-system-readme.png" alt="NOA System">
+</p>
+
 # NOA System
 
 **REPLAY THE FUTURE**
