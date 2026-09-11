@@ -14,16 +14,16 @@ NOA Systemを作っていく途中で、何を考え、何を試し、何が分�
 
 ## Entries
 
-### [ 2026.09.11 ]
+### [ 2026.09.07 ]
 
-**NEW!** [エミュレータより先に、ゲーム機の一周を作る](2026-09-11-01-first-vertical-slice.md)
+**NEW!** [エミュレータより先に、ゲーム機の一周を作る](2026-09-07-01-first-vertical-slice.md)
 
 最初のVertical Sliceとして、Libraryからゲームを選び、PLAYし、Sessionを終えて元のGame Detailへ戻るところまでを先に作った話。
 
 ---
 
 ```text
-Last Updated : 2026.09.11
+Last Updated : 2026.09.07
 ```
 
 [← Back to NOA System](../README.md)
