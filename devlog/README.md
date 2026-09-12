@@ -16,9 +16,15 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ## Entries
 
+### [ 2026.09.08 ]
+
+**NEW!** [#6 — 作りながら、設計書も育てる](0006-grow-the-design-docs.md)
+
+実装が先へ進んだことで生まれた設計文書とのズレを整理し、AIと一緒に作るために「設計書も実装と一緒に育てる」形へ変わった話。
+
 ### [ 2026.09.07 ]
 
-**NEW!** [#5 — 消しても困らないROM Database](0005-rebuildable-rom-database.md)
+[#5 — 消しても困らないROM Database](0005-rebuildable-rom-database.md)
 
 保存したMAME Source SnapshotをParse / Normalizeし、3710 Software / 4292 ROMのSQLiteを何度でも再生成できるpipelineへつないだ話。
 
@@ -41,7 +47,7 @@ Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからP
 ---
 
 ```text
-Last Updated : 2026.09.07
+Last Updated : 2026.09.08
 ```
 
 [← Back to NOA System](../README.md)
