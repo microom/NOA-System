@@ -16,7 +16,15 @@ NOA Systemを作っていく途中で、何を考え、何を試し、何が分�
 
 ### [ 2026.09.07 ]
 
-**NEW!** [ゲームが残るなら、遊んだ時間も残したい](2026-09-07-03-keep-the-time-we-played.md)
+**NEW!** [消しても困らないROM Database](2026-09-07-05-rebuildable-rom-database.md)
+
+保存したMAME Source SnapshotをParse / Normalizeし、3710 Software / 4292 ROMのSQLiteを何度でも再生成できるpipelineへつないだ話。
+
+[データベースより先に、その故郷を保存する](2026-09-07-04-preserve-the-source-before-the-database.md)
+
+ROM Databaseを作る前に、MAME 0.289の一次資料と出典・ライセンス・SHA-256を固定し、あとから同じDatabaseを再現できる土台を作った話。
+
+[ゲームが残るなら、遊んだ時間も残したい](2026-09-07-03-keep-the-time-we-played.md)
 
 SFCのSRAMをNOA System自身のSave領域へ保存し、F-Zeroで既存Saveと新規Saveの両方が再起動後も戻ってくるところまでを通した話。
 
