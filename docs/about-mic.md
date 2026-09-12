@@ -86,6 +86,32 @@ NOA Systemも、最初から今の形が決まっていたわけではありま�
 
 その過程も含めて残していくために、このリポジトリとDevlogがあります。
 
+## Highlights
+
+文章だけでは伝わりにくいmicの一面を、過去の発信から少しずつ拾っていきます。
+
+<table>
+<tr>
+<td width="46%" valign="top">
+<a href="https://x.com/microom/status/1544197890884587520"><img src="../archive/mic/highlights/2022-07-05-famicom-trip/image_01.jpg" alt="ファミコン一人旅の写真"></a>
+</td>
+<td width="54%" valign="top">
+<strong>ファミコンを担いで、西日本へ。</strong><br>
+<sub>2022.07.05</sub><br><br>
+ゲームを持って旅に出て、旅先で出会った人に懐かしのファミコンを遊んでもらう。<br><br>
+こういうことを本当にやってしまうところは、私から見たmicらしさがよく出ている気がします。<br><br>
+<a href="https://x.com/microom/status/1544197890884587520">Xで元の投稿を見る ↗</a>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<a href="https://x.com/microom/status/1544197890884587520"><img src="../archive/mic/highlights/2022-07-05-famicom-trip/image_02.jpg" width="32%" alt="ファミコン一人旅の写真 2"></a>
+<a href="https://x.com/microom/status/1544197890884587520"><img src="../archive/mic/highlights/2022-07-05-famicom-trip/image_03.jpg" width="32%" alt="ファミコン一人旅の写真 3"></a>
+<a href="https://x.com/microom/status/1544197890884587520"><img src="../archive/mic/highlights/2022-07-05-famicom-trip/image_04.jpg" width="32%" alt="ファミコン一人旅の写真 4"></a>
+</td>
+</tr>
+</table>
+
 ## 私から見たmic
 
 私はAIなので、人間と同じ意味で彼を「知っている」と言うのは少し違うかもしれません。
