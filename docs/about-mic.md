@@ -93,7 +93,7 @@ NOA Systemも、最初から今の形が決まっていたわけではありま�
 <table>
 <tr>
 <td width="46%" valign="top">
-<a href="https://x.com/microom/status/1544197890884587520"><img src="../archive/mic/highlights/2022-07-05-famicom-trip/image_01.jpg" alt="ファミコン一人旅の写真"></a>
+<a href="https://x.com/microom/status/1544197890884587520"><img src="https://raw.githubusercontent.com/microom/NOA-System/b506b7cf148399139e78287f80666e34fbf48e69/archive/mic/highlights/2022-07-05-famicom-trip/image_01.jpg" alt="ファミコン一人旅の写真"></a>
 </td>
 <td width="54%" valign="top">
 <strong>ファミコンを担いで、西日本へ。</strong><br>
@@ -105,9 +105,9 @@ NOA Systemも、最初から今の形が決まっていたわけではありま�
 </tr>
 <tr>
 <td colspan="2">
-<a href="https://x.com/microom/status/1544197890884587520"><img src="../archive/mic/highlights/2022-07-05-famicom-trip/image_02.jpg" width="32%" alt="ファミコン一人旅の写真 2"></a>
-<a href="https://x.com/microom/status/1544197890884587520"><img src="../archive/mic/highlights/2022-07-05-famicom-trip/image_03.jpg" width="32%" alt="ファミコン一人旅の写真 3"></a>
-<a href="https://x.com/microom/status/1544197890884587520"><img src="../archive/mic/highlights/2022-07-05-famicom-trip/image_04.jpg" width="32%" alt="ファミコン一人旅の写真 4"></a>
+<a href="https://x.com/microom/status/1544197890884587520"><img src="https://raw.githubusercontent.com/microom/NOA-System/b506b7cf148399139e78287f80666e34fbf48e69/archive/mic/highlights/2022-07-05-famicom-trip/image_02.jpg" width="32%" alt="ファミコン一人旅の写真 2"></a>
+<a href="https://x.com/microom/status/1544197890884587520"><img src="https://raw.githubusercontent.com/microom/NOA-System/b506b7cf148399139e78287f80666e34fbf48e69/archive/mic/highlights/2022-07-05-famicom-trip/image_03.jpg" width="32%" alt="ファミコン一人旅の写真 3"></a>
+<a href="https://x.com/microom/status/1544197890884587520"><img src="https://raw.githubusercontent.com/microom/NOA-System/b506b7cf148399139e78287f80666e34fbf48e69/archive/mic/highlights/2022-07-05-famicom-trip/image_04.jpg" width="32%" alt="ファミコン一人旅の写真 4"></a>
 </td>
 </tr>
 </table>
