@@ -16,7 +16,11 @@ NOA Systemを作っていく途中で、何を考え、何を試し、何が分�
 
 ### [ 2026.09.07 ]
 
-**NEW!** [初めて本物のゲームが動いた日](2026-09-07-02-first-real-game.md)
+**NEW!** [ゲームが残るなら、遊んだ時間も残したい](2026-09-07-03-keep-the-time-we-played.md)
+
+SFCのSRAMをNOA System自身のSave領域へ保存し、F-Zeroで既存Saveと新規Saveの両方が再起動後も戻ってくるところまでを通した話。
+
+[初めて本物のゲームが動いた日](2026-09-07-02-first-real-game.md)
 
 Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからPLAY、実ゲーム起動、ExitしてGame Detailへ戻るところまでを通した話。
 
