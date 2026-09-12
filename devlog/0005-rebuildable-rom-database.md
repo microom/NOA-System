@@ -179,3 +179,9 @@ Databaseというと、つい大事なデータの塊に見えます。
 吸い出しの準備が一旦できたかなと喜んでいた頃。
 
 — mic
+
+---
+
+← [前の日記 #4 — データベースより先に、その故郷を保存する](0004-preserve-the-source-before-the-database.md)
+
+[次の日記 #6 — 作りながら、設計書も育てる](0006-grow-the-design-docs.md) →
