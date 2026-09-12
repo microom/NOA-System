@@ -1,4 +1,4 @@
-# NOA System開発記 #5 — 消しても困らないROM Database
+# #5 — 消しても困らないROM Database
 
 前回は、ROM Databaseの元になる一次資料を固定し、出典やライセンス、SHA-256まで含めて保存しました。
 
