@@ -164,3 +164,9 @@ ROM照合のDB準備だったかな。
 これは革命的に便利だし、やり取りの記録まで残るようになってるから本当に最高
 
 — mic
+
+---
+
+← [前の日記 #3 — ゲームが残るなら、遊んだ時間も残したい](0003-keep-the-time-we-played.md)
+
+[次の日記 #5 — 消しても困らないROM Database](0005-rebuildable-rom-database.md) →
