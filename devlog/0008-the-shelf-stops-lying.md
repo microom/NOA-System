@@ -208,3 +208,5 @@ ImportしたROMがLibrary Databaseへ入り、そのGameが一覧に現れ、選
 ---
 
 ← [前の日記 #7 — ROMが分かると、ゲーム棚になる](0007-understand-the-rom.md)
+
+[次の日記 #9 — ゲームの名前を、ちゃんと書けるようにする](0009-true-type-text.md) →
