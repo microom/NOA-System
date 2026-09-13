@@ -155,6 +155,14 @@ Game DetailではSYSTEM / STATUS / SIZEが表示され、Known ROMとUnknown ROM
 
 そしてPLAYの導線はそのまま動いています。
 
+当時の画面も、そのまま開発記録として残しておきます。
+
+![Frontend screenshot 1](images/issue_009_01.png)
+
+![Frontend screenshot 2](images/issue_009_02.png)
+
+![Frontend screenshot 3](images/issue_009_03.png)
+
 内部ではTextRendererやUTF-8 decodeといった基盤の変更ですが、人間から見ると一番大きいのは単純で、
 
 **ゲームの名前がちゃんと読めるようになった。**
