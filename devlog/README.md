@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.08 ]
 
-**NEW!** [#8 — 嘘だったゲーム棚を、本物にする](0008-the-shelf-stops-lying.md)
+**NEW!** [#9 — ゲームの名前を、ちゃんと書けるようにする](0009-true-type-text.md)
+
+実Libraryの本物のタイトルを正しく表示するため、開発用BitmapFontを卒業してM PLUS 2 / UTF-8対応のTrueType描画基盤へ移行した話。
+
+[#8 — 嘘だったゲーム棚を、本物にする](0008-the-shelf-stops-lying.md)
 
 DummyだったGame Listを実Library DBへつなぎ、実ROMをImportして一覧・選択・削除・再Import・PLAYまで人間が触れる「本物のゲーム棚」に変えた話。
 
