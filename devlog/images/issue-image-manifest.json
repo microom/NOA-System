@@ -1,12 +1,24 @@
 {
   "assets": {
+    "217d3568-e6bf-49c5-b00a-07999b7c2a5a": {
+      "file": "issue_009_01.png",
+      "issue": 9
+    },
     "455ecb77-7073-4e2c-aae2-339809ca475b": {
       "file": "issue_014_02.png",
       "issue": 14
     },
+    "8d629b76-a498-46c5-b6e7-47be7c7c3ae3": {
+      "file": "issue_009_02.png",
+      "issue": 9
+    },
     "a035be59-a2fe-4cc4-9706-362abf323224": {
       "file": "issue_014_01.png",
       "issue": 14
+    },
+    "d174172e-9195-4f89-baac-5e1cf1080536": {
+      "file": "issue_009_03.png",
+      "issue": 9
     }
   },
   "version": 1
