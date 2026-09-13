@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.08 ]
 
-**NEW!** [#6 — 作りながら、設計書も育てる](0006-grow-the-design-docs.md)
+**NEW!** [#7 — ROMが分かると、ゲーム棚になる](0007-understand-the-rom.md)
+
+実ROM 25本を使ってIdentity照合を試し、MAMEとNo-Introの情報モデルの違いを踏まえながら、Known / Unknownを含めて「手元のゲームを理解できるLibrary」へ進んだ話。
+
+[#6 — 作りながら、設計書も育てる](0006-grow-the-design-docs.md)
 
 実装が先へ進んだことで生まれた設計文書とのズレを整理し、AIと一緒に作るために「設計書も実装と一緒に育てる」形へ変わった話。
 

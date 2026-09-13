@@ -118,3 +118,5 @@ NOA Systemでは、設計文書は実装前に完成させて終わるもので�
 ---
 
 ← [前の日記 #5 — 消しても困らないROM Database](0005-rebuildable-rom-database.md)
+
+[次の日記 #7 — ROMが分かると、ゲーム棚になる](0007-understand-the-rom.md) →
