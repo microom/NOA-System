@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.08 ]
 
-**NEW!** [#7 — ROMが分かると、ゲーム棚になる](0007-understand-the-rom.md)
+**NEW!** [#8 — 嘘だったゲーム棚を、本物にする](0008-the-shelf-stops-lying.md)
+
+DummyだったGame Listを実Library DBへつなぎ、実ROMをImportして一覧・選択・削除・再Import・PLAYまで人間が触れる「本物のゲーム棚」に変えた話。
+
+[#7 — ROMが分かると、ゲーム棚になる](0007-understand-the-rom.md)
 
 実ROM 25本を使ってIdentity照合を試し、MAMEとNo-Introの情報モデルの違いを踏まえながら、Known / Unknownを含めて「手元のゲームを理解できるLibrary」へ進んだ話。
 
