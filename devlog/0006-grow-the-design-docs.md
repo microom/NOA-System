@@ -114,3 +114,7 @@ NOA Systemでは、設計文書は実装前に完成させて終わるもので�
 本当に優秀なエージェント。
 
 — mic
+
+---
+
+← [前の日記 #5 — 消しても困らないROM Database](0005-rebuildable-rom-database.md)
