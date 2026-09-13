@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.09 ]
 
-**NEW!** [#10 — カートリッジから、ゲームが読めた日](0010-read-the-cartridge.md)
+**NEW!** [#11 — カートリッジは、そんなに素直じゃない](0011-when-the-cartridge-fights-back.md)
+
+特殊チップ搭載SFCカートリッジを実機で次々に読み、SA-1 / S-DD1 / SPC7110などの違い、物理端子のcontact bounce、Headerだけでは分からないROM sizeに向き合った話。
+
+[#10 — カートリッジから、ゲームが読めた日](0010-read-the-cartridge.md)
 
 RetroFreak Cartridge AdapterをWindowsからread-onlyで制御し、実物のSFCカートリッジをdumpしてHash一致・DatabaseのKnown判定までつないだ話。
 
