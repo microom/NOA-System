@@ -10,9 +10,15 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ## Entries
 
+### [ 2026.09.09 ]
+
+**NEW!** [#10 — カートリッジから、ゲームが読めた日](0010-read-the-cartridge.md)
+
+RetroFreak Cartridge AdapterをWindowsからread-onlyで制御し、実物のSFCカートリッジをdumpしてHash一致・DatabaseのKnown判定までつないだ話。
+
 ### [ 2026.09.08 ]
 
-**NEW!** [#9 — ゲームの名前を、ちゃんと書けるようにする](0009-true-type-text.md)
+[#9 — ゲームの名前を、ちゃんと書けるようにする](0009-true-type-text.md)
 
 実Libraryの本物のタイトルを正しく表示するため、開発用BitmapFontを卒業してM PLUS 2 / UTF-8対応のTrueType描画基盤へ移行した話。
 
@@ -53,7 +59,7 @@ Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからP
 ---
 
 ```text
-Last Updated : 2026.09.08
+Last Updated : 2026.09.09
 ```
 
 [← Back to NOA System](../README.md)
