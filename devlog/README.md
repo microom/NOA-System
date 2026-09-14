@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.09 ]
 
-**NEW!** [#11 — カートリッジは、そんなに素直じゃない](0011-when-the-cartridge-fights-back.md)
+**NEW!** [#12 — カートリッジを挿したら、ゲームになる](0012-cartridge-to-play.md)
+
+実カートリッジからDump → Identity → Import → Library → 自動選択 → PLAYまでを一本につなぎ、前回残ったRockman X2 / CX4のROM dump問題も解いた話。
+
+[#11 — カートリッジは、そんなに素直じゃない](0011-when-the-cartridge-fights-back.md)
 
 特殊チップ搭載SFCカートリッジを実機で次々に読み、SA-1 / S-DD1 / SPC7110などの違い、物理端子のcontact bounce、Headerだけでは分からないROM sizeに向き合った話。
 
