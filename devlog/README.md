@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.10 ]
 
-**NEW!** [#19 — その瞬間を、丸ごと保存する](0019-save-the-moment.md)
+**NEW!** [#20 — 保存した瞬間へ、戻る](0020-back-to-that-moment.md)
+
+前回保存できるようになったManual Save Stateを、安全なidentity / compatibility確認を通して実際にLoadし、保存した瞬間へ戻れるところまでつないだ話。
+
+[#19 — その瞬間を、丸ごと保存する](0019-save-the-moment.md)
 
 ゲーム内のSRAMとは別に、プレイ中のエミュレーション状態をManual Save Stateとして安全に永続化する基盤を作った話。保存はできた。でも、この時点ではまだロードできない。
 
