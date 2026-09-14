@@ -338,3 +338,5 @@ PLAY
 ---
 
 ← [前の日記 #11 — カートリッジは、そんなに素直じゃない](0011-when-the-cartridge-fights-back.md)
+
+[次の日記 #13 — ROMだけでは、ゲームは動かない](0013-rom-is-not-enough.md) →
