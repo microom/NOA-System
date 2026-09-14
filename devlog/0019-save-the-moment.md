@@ -140,4 +140,5 @@ EchoもClaudeさんも実装終わってレビューもいい感じです！と�
 
 ---
 
-← [前の日記 #18 — やっぱり、コントローラーで遊びたい](0018-play-with-a-controller.md)
+← [前の日記 #18 — やっぱり、コントローラーで遊びたい](0018-play-with-a-controller.md)  
+[次の日記 #20 — 保存した瞬間へ、戻る →](0020-back-to-that-moment.md)
