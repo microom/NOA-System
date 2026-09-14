@@ -178,4 +178,5 @@ NOAに入ってるSRAMを書き込んで変化を観測する。
 
 ---
 
-← [前の日記 #16 — カートリッジの続きから、遊ぶ](0016-save-from-cartridge.md)
+← [前の日記 #16 — カートリッジの続きから、遊ぶ](0016-save-from-cartridge.md)  
+[次の日記 #18 — やっぱり、コントローラーで遊びたい →](0018-play-with-a-controller.md)
