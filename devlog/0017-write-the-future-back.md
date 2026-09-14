@@ -22,7 +22,7 @@
 
 実機で安全に変化を与えて元へ戻す試験と、同じAdapterを利用する既存ツールの解析を突き合わせて、最終的に次の経路を確認しました。
 
-| SRAM controller | Read | Write | Write address | Window |
+| SRAM種別 | 読み出し | 書き込み | 書き込み先 | 範囲 |
 | --- | --- | --- | --- | ---: |
 | LoROM | `READ (0x07)` | `WRITE (0x08)` | bank `$F0`, offset `$0000` | 64 KiB |
 | LoROM LowAreaOnly | `READ (0x07)` | `WRITE (0x08)` | bank `$F0`, offset `$0000` | 32 KiB |
@@ -48,18 +48,18 @@
 
 ```mermaid
 flowchart TD
-    A[Write Save to Cartridge] --> B{ROM identity matches?}
-    B -- No --> X[Reject]
-    B -- Yes --> C{SRAM controller / size valid?}
-    C -- No --> X
-    C -- Yes --> D[Read current cartridge SRAM]
-    D --> E{Backup saved?}
-    E -- No --> X
-    E -- Yes --> F[Write SRAM]
-    F --> G[Read back]
-    G --> H{Byte-exact match?}
-    H -- No --> Y[Verify failure]
-    H -- Yes --> I[Success]
+    A[セーブをカートリッジへ書き戻す] --> B{ROMは一致している？}
+    B -- いいえ --> X[中止]
+    B -- はい --> C{SRAM種別とサイズは正しい？}
+    C -- いいえ --> X
+    C -- はい --> D[現在のカートリッジSRAMを読む]
+    D --> E{バックアップできた？}
+    E -- いいえ --> X
+    E -- はい --> F[SRAMへ書き込む]
+    F --> G[もう一度読み出す]
+    G --> H{全バイト一致した？}
+    H -- いいえ --> Y[検証失敗]
+    H -- はい --> I[成功]
 ```
 
 挿さっているカートリッジのROM identityがLibrary側のGameと一致しなければ書かない。
@@ -144,8 +144,8 @@ NOA Systemで遊んだ時間を、昔のカートリッジへ返せるように�
 
 ```mermaid
 flowchart LR
-    A[Physical Cartridge] -->|old save| B[NOA System]
-    B -->|new memories| A
+    A[実カートリッジ] -->|昔のセーブ| B[NOA System]
+    B -->|新しい思い出| A
 ```
 
 これは単なるSave転送機能ではあります。
