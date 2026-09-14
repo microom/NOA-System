@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.10 ]
 
-**NEW!** [#21 — ただ遊ぶだけじゃない](0021-more-than-playing.md)
+**NEW!** [#22 — 終わるときに、続きを残す](0022-save-without-asking.md)
+
+Session終了時に現在の状態をAutoSnapとして自動保存し、複数世代を安全に残せるようにした話。そして便利なはずの仕組みに、早くも少しだけ違和感を覚え始めた話。
+
+[#21 — ただ遊ぶだけじゃない](0021-more-than-playing.md)
 
 プレイ中にOverlay / System Menuを呼び出し、Save State / Load State / Reset / Exitをゲームパッドから扱えるようにして、NOA Systemが「ゲームを動かす箱」から少しずつ「らしいゲーム機」へ変わり始めた話。
 
