@@ -10,9 +10,15 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ## Entries
 
+### [ 2026.09.14 ]
+
+**NEW!** [#15 — ゲーム機に、メニューができた](0015-a-menu-for-the-frontend.md)
+
+FrontendへNOA Menuを追加し、Library / Settings / Game Environmentへの入口を作った回。実機確認で見つかった入力持ち越しや、久しぶりのuse-after-freeクラッシュをminidumpから追い、View lifetimeのルールまで残した話。
+
 ### [ 2026.09.09 ]
 
-**NEW!** [#14 — 無いなら、別の道で動かす](0014-cx4-without-external-firmware.md)
+[#14 — 無いなら、別の道で動かす](0014-cx4-without-external-firmware.md)
 
 外部CX4 firmwareが無くても、既存Core自身が持つHLEへ必要なときだけfallbackし、Rockman X2を実際のgameplayまで動かせるようにした話。
 
@@ -75,7 +81,7 @@ Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからP
 ---
 
 ```text
-Last Updated : 2026.09.09
+Last Updated : 2026.09.14
 ```
 
 [← Back to NOA System](../README.md)
