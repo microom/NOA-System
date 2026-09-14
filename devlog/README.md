@@ -10,9 +10,15 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ## Entries
 
+### [ 2026.09.10 ]
+
+**NEW!** [#19 — その瞬間を、丸ごと保存する](0019-save-the-moment.md)
+
+ゲーム内のSRAMとは別に、プレイ中のエミュレーション状態をManual Save Stateとして安全に永続化する基盤を作った話。保存はできた。でも、この時点ではまだロードできない。
+
 ### [ 2026.09.09 ]
 
-**NEW!** [#18 — やっぱり、コントローラーで遊びたい](0018-play-with-a-controller.md)
+[#18 — やっぱり、コントローラーで遊びたい](0018-play-with-a-controller.md)
 
 物理Gamepadの違いをLogical Padで吸収し、SFCのゲーム操作だけでなくGame List → Game Detail → PLAYまでコントローラーだけで辿れるようにした話。
 
@@ -91,7 +97,7 @@ Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからP
 ---
 
 ```text
-Last Updated : 2026.09.09
+Last Updated : 2026.09.10
 ```
 
 [← Back to NOA System](../README.md)
