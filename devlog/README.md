@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.09 ]
 
-**NEW!** [#16 — カートリッジの続きから、遊ぶ](0016-save-from-cartridge.md)
+**NEW!** [#17 — 遊んだ続きを、カートリッジへ返す](0017-write-the-future-back.md)
+
+NOA Systemで遊んだSaveを実SFCカートリッジへ安全に書き戻し、backupとbyte-exact verifyを通したうえで、別の実機でもその続きを読めるところまで確認した話。
+
+[#16 — カートリッジの続きから、遊ぶ](0016-save-from-cartridge.md)
 
 実カートリッジからROMだけでなくSRAMも読み出し、Sutte HakkunやChrono Triggerで実機のセーブデータをNOA Systemへ持ってきて、その続きから遊べるようにした話。
 
