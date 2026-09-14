@@ -143,4 +143,5 @@ Overlay Menuは小さな機能ですが、その問いが画面に初めて出�
 
 ---
 
-← [前の日記 #20 — 保存した瞬間へ、戻る](0020-back-to-that-moment.md)
+← [前の日記 #20 — 保存した瞬間へ、戻る](0020-back-to-that-moment.md)  
+[次の日記 #22 — 終わるときに、続きを残す →](0022-save-without-asking.md)
