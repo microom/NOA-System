@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.11 ]
 
-**NEW!** [#24 — 最後にいた景色を、残す](0024-last-scene.md)
+**NEW!** [#25 — 二台目で、設計が試された](0025-second-system.md)
+
+Mega Driveを二台目のSystemとして追加し、NOA Systemが初めて横方向へ広がった話。既存のSave State / AutoSnap / Preview / Overlayがほぼそのまま使えた一方、Save RAMではSecond Systemだからこそ共通層の誤った前提も見つかり、実機・調査・修正を往復しながら設計を確かめた。
+
+[#24 — 最後にいた景色を、残す](0024-last-scene.md)
 
 AutoSnapへ最後のgame frameをPreviewとして結びつけ、Game Detailで「どこにいたか」が見えるようになった話。そして一枚の画像から、動画や自動Screenshotによる「遊んでいた時間のログ」へ想像が伸び始めた話。
 
