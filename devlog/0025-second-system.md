@@ -79,6 +79,10 @@ AutoSnapを作ればPreviewも出る。
 
 好きな**ボナンザブラザーズ**も、そこに普通にいました。
 
+![Mega Drive title shown inside NOA System](https://github.com/user-attachments/assets/fbbcd52a-5cf7-4445-ab69-9496000872ba)
+
+![AutoSnap Preview shown in NOA System](https://github.com/user-attachments/assets/6d112165-2be9-4491-8fad-9362b51eded7)
+
 SFCの機能を作っていたときも、一つ一つ完成するたびに嬉しさはありました。
 
 でも今回は少し種類が違います。
@@ -338,3 +342,5 @@ AI駆動の開発って、サイコロを転がしてたまたま良いものが
 ---
 
 ← [前の日記 #24 — 最後にいた景色を、残す](0024-last-scene.md)
+
+<sub>※ 掲載している画面はNOA Systemの開発・動作紹介を目的としたものです。画面内に表示されるゲーム映像・タイトル等の著作権および関連する権利は、それぞれの権利者に帰属します。</sub>
