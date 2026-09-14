@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.09 ]
 
-**NEW!** [#12 — カートリッジを挿したら、ゲームになる](0012-cartridge-to-play.md)
+**NEW!** [#13 — ROMだけでは、ゲームは動かない](0013-rom-is-not-enough.md)
+
+正しいRockman X2のROMまで辿り着いた先でCX4の別firmwareが必要と分かり、無理な物理抽出を止めて安全なFirmware Resolver / resolved viewを作った話。
+
+[#12 — カートリッジを挿したら、ゲームになる](0012-cartridge-to-play.md)
 
 実カートリッジからDump → Identity → Import → Library → 自動選択 → PLAYまでを一本につなぎ、前回残ったRockman X2 / CX4のROM dump問題も解いた話。
 
