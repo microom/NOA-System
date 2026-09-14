@@ -158,4 +158,5 @@ dump進捗もゲージとか出さすにシンプルに進捗文字列更新型�
 
 ---
 
-← [前の日記 #14 — 無いなら、別の道で動かす](0014-cx4-without-external-firmware.md)
+← [前の日記 #14 — 無いなら、別の道で動かす](0014-cx4-without-external-firmware.md)  
+[次の日記 #16 — カートリッジの続きから、遊ぶ →](0016-save-from-cartridge.md)
