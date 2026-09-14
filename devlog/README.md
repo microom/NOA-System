@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.09 ]
 
-**NEW!** [#17 — 遊んだ続きを、カートリッジへ返す](0017-write-the-future-back.md)
+**NEW!** [#18 — やっぱり、コントローラーで遊びたい](0018-play-with-a-controller.md)
+
+物理Gamepadの違いをLogical Padで吸収し、SFCのゲーム操作だけでなくGame List → Game Detail → PLAYまでコントローラーだけで辿れるようにした話。
+
+[#17 — 遊んだ続きを、カートリッジへ返す](0017-write-the-future-back.md)
 
 NOA Systemで遊んだSaveを実SFCカートリッジへ安全に書き戻し、backupとbyte-exact verifyを通したうえで、別の実機でもその続きを読めるところまで確認した話。
 
