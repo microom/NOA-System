@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.09 ]
 
-**NEW!** [#13 — ROMだけでは、ゲームは動かない](0013-rom-is-not-enough.md)
+**NEW!** [#14 — 無いなら、別の道で動かす](0014-cx4-without-external-firmware.md)
+
+外部CX4 firmwareが無くても、既存Core自身が持つHLEへ必要なときだけfallbackし、Rockman X2を実際のgameplayまで動かせるようにした話。
+
+[#13 — ROMだけでは、ゲームは動かない](0013-rom-is-not-enough.md)
 
 正しいRockman X2のROMまで辿り着いた先でCX4の別firmwareが必要と分かり、無理な物理抽出を止めて安全なFirmware Resolver / resolved viewを作った話。
 
