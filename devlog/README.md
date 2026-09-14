@@ -10,9 +10,15 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ## Entries
 
+### [ 2026.09.12 ]
+
+**NEW!** [#26 — 実物のカートリッジが、NOAへ渡ってきた](0026-cartridge-crosses-over.md)
+
+Mega Driveの実カートリッジからROMとSaveを読み出し、既知ROMのHash一致、Sonic 3のFRAM、Shining Force IIのSRAMまでNOAへつないだ話。そして実ROM Importのワクワクから、既存環境の不満を直してもらう側ではなく、自分で理想の環境を作ろうとNOAを始めた原点へ戻った話。
+
 ### [ 2026.09.11 ]
 
-**NEW!** [#25 — 二台目で、設計が試された](0025-second-system.md)
+[#25 — 二台目で、設計が試された](0025-second-system.md)
 
 Mega Driveを二台目のSystemとして追加し、NOA Systemが初めて横方向へ広がった話。既存のSave State / AutoSnap / Preview / Overlayがほぼそのまま使えた一方、Save RAMではSecond Systemだからこそ共通層の誤った前提も見つかり、実機・調査・修正を往復しながら設計を確かめた。
 
@@ -123,7 +129,7 @@ Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからP
 ---
 
 ```text
-Last Updated : 2026.09.14
+Last Updated : 2026.09.15
 ```
 
 [← Back to NOA System](../README.md)
