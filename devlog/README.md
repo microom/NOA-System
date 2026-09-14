@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.10 ]
 
-**NEW!** [#20 — 保存した瞬間へ、戻る](0020-back-to-that-moment.md)
+**NEW!** [#21 — ただ遊ぶだけじゃない](0021-more-than-playing.md)
+
+プレイ中にOverlay / System Menuを呼び出し、Save State / Load State / Reset / Exitをゲームパッドから扱えるようにして、NOA Systemが「ゲームを動かす箱」から少しずつ「らしいゲーム機」へ変わり始めた話。
+
+[#20 — 保存した瞬間へ、戻る](0020-back-to-that-moment.md)
 
 前回保存できるようになったManual Save Stateを、安全なidentity / compatibility確認を通して実際にLoadし、保存した瞬間へ戻れるところまでつないだ話。
 
