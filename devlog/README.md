@@ -14,7 +14,7 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 **NEW!** [#25 — 二台目で、設計が試された](0025-second-system.md)
 
-Mega Driveを二台目のSystemとして追加したことで、SFC向けに作ってきたSave、Save State、AutoSnap、Preview、Overlayがほぼそのまま動き、初めて「共通にしたつもり」の設計を実機で確かめられた話。
+Mega Driveを二台目のSystemとして追加し、SFC向けに積み上げた共通設計がどこまでそのまま広がるかを実機で検証した話。ほぼ無変更で動いた機能と、二台目だからこそ見つかったSave RAM契約の誤解、その両方からNOA Systemの設計とAI開発の進め方を確かめた。
 
 [#24 — 最後にいた景色を、残す](0024-last-scene.md)
 
