@@ -10,9 +10,15 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ## Entries
 
+### [ 2026.09.11 ]
+
+**NEW!** [#24 — 最後にいた景色を、残す](0024-last-scene.md)
+
+AutoSnapへ最後のgame frameをPreviewとして結びつけ、Game Detailで「どこにいたか」が見えるようになった話。そして一枚の画像から、動画や自動Screenshotによる「遊んでいた時間のログ」へ想像が伸び始めた話。
+
 ### [ 2026.09.10 ]
 
-**NEW!** [#23 — 画面にも、理由を持たせる](0023-ui-with-intent.md)
+[#23 — 画面にも、理由を持たせる](0023-ui-with-intent.md)
 
 機能を先に作るため長く我慢していたUIへ、dark navyの空気、静かなtransition、SystemをまたぐLibrary、意味を持つPLAY / RESUMEなど、NOA Systemの考え方を少しずつ手触りとして入れ始めた話。
 
