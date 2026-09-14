@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.09 ]
 
-**NEW!** [#14 — 無いなら、別の道で動かす](0014-cx4-without-external-firmware.md)
+**NEW!** [#15 — 「固まった？」を、なくす](0015-dump-is-alive.md)
+
+カートリッジdumpをbackground化して読み出し進捗を見えるようにし、実機計測で速度の律速も調べた結果、無理な高速化より「ちゃんと待てる」UXを選んだ話。
+
+[#14 — 無いなら、別の道で動かす](0014-cx4-without-external-firmware.md)
 
 外部CX4 firmwareが無くても、既存Core自身が持つHLEへ必要なときだけfallbackし、Rockman X2を実際のgameplayまで動かせるようにした話。
 

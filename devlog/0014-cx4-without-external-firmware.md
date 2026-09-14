@@ -160,4 +160,5 @@ CX4 internal Data ROMの物理抽出は、結局できていません。
 
 ---
 
-← [前の日記 #13 — ROMだけでは、ゲームは動かない](0013-rom-is-not-enough.md)
+← [前の日記 #13 — ROMだけでは、ゲームは動かない](0013-rom-is-not-enough.md)  
+[次の日記 #15 — 「固まった？」を、なくす →](0015-dump-is-alive.md)
