@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.10 ]
 
-**NEW!** [#22 — 終わるときに、続きを残す](0022-save-without-asking.md)
+**NEW!** [#23 — 画面にも、理由を持たせる](0023-ui-with-intent.md)
+
+機能を先に作るため長く我慢していたUIへ、dark navyの空気、静かなtransition、SystemをまたぐLibrary、意味を持つPLAY / RESUMEなど、NOA Systemの考え方を少しずつ手触りとして入れ始めた話。
+
+[#22 — 終わるときに、続きを残す](0022-save-without-asking.md)
 
 Session終了時に現在の状態をAutoSnapとして自動保存し、複数世代を安全に残せるようにした話。そして便利なはずの仕組みに、早くも少しだけ違和感を覚え始めた話。
 
@@ -109,7 +113,7 @@ Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからP
 ---
 
 ```text
-Last Updated : 2026.09.10
+Last Updated : 2026.09.14
 ```
 
 [← Back to NOA System](../README.md)
