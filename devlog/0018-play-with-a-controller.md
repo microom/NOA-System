@@ -147,4 +147,5 @@ Keyboard操作もfallbackとしてそのまま残しています。
 
 ---
 
-← [前の日記 #17 — 遊んだ続きを、カートリッジへ返す](0017-write-the-future-back.md)
+← [前の日記 #17 — 遊んだ続きを、カートリッジへ返す](0017-write-the-future-back.md)  
+[次の日記 #19 — その瞬間を、丸ごと保存する →](0019-save-the-moment.md)
