@@ -81,7 +81,7 @@ AutoSnapを作ればPreviewも出る。
 
 ![Mega Drive title shown inside NOA System](https://github.com/user-attachments/assets/fbbcd52a-5cf7-4445-ab69-9496000872ba)
 
-![AutoSnap Preview shown in NOA System](https://github.com/user-attachments/assets/6d112165-2be9-4491-8fad-9362b51eded7)
+![Bonanza Bros. shown inside NOA System](https://github.com/user-attachments/assets/20865ed7-2719-493b-a3bb-608be455109e)
 
 SFCの機能を作っていたときも、一つ一つ完成するたびに嬉しさはありました。
 
