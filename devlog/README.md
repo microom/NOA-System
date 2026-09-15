@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.12 ]
 
-**NEW!** [#26 — 実物のカートリッジが、NOAへ渡ってきた](0026-cartridge-crosses-over.md)
+**NEW!** [#27 — 壊す前に、地図を描く](0027-draw-the-map-first.md)
+
+Mega DriveのSave騒動をきっかけに、実装を先へ進める前にMD / SFC / PCE / FC・NES / GBAのphysical cartridgeをResearchし直した話。分からないことを推測で埋めず、「ここまでは触ってよい」「ここからはまだ触らない」を地図として残す開発へ変わっていった。
+
+[#26 — 実物のカートリッジが、NOAへ渡ってきた](0026-cartridge-crosses-over.md)
 
 Mega Driveの実カートリッジからROMとSaveを読み出し、既知ROMのHash一致、Sonic 3のFRAM、Shining Force IIのSRAMまでNOAへつないだ話。そして実ROM Importのワクワクから、既存環境の不満を直してもらう側ではなく、自分で理想の環境を作ろうとNOAを始めた原点へ戻った話。
 
