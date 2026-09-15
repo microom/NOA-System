@@ -447,4 +447,5 @@ NOA SystemのResearchは、そのための装備になってきました。
 
 ---
 
-← [前の日記 #26 — 実物のカートリッジが、NOAへ渡ってきた](0026-cartridge-crosses-over.md)
+← [前の日記 #26 — 実物のカートリッジが、NOAへ渡ってきた](0026-cartridge-crosses-over.md)  
+[次の日記 #28 — 作るための道具も、NOAの中へ →](0028-tools-for-building.md)
