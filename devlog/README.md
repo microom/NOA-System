@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.12 ]
 
-**NEW!** [#27 — 壊す前に、地図を描く](0027-draw-the-map-first.md)
+**NEW!** [#28 — 作るための道具も、NOAの中へ](0028-tools-for-building.md)
+
+SRAM検証でAutoSnapの便利さが逆に切り分けを難しくしたことからDeveloper Debug Menuを作り、さらに開発中の証拠や景色をNOA自身で残せるManual Screenshotへ広がった話。速く実装するだけでなく、速く確かめ、途中の姿も残せる環境を作り始めた。
+
+[#27 — 壊す前に、地図を描く](0027-draw-the-map-first.md)
 
 Mega DriveのSave騒動をきっかけに、実装を先へ進める前にMD / SFC / PCE / FC・NES / GBAのphysical cartridgeをResearchし直した話。分からないことを推測で埋めず、「ここまでは触ってよい」「ここからはまだ触らない」を地図として残す開発へ変わっていった。
 
