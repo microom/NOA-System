@@ -419,6 +419,8 @@ NOA Systemでは、実カートリッジを特別な「Dump Mode」へ入って�
 
 --- mic
 
+![Claudeがmicを「タコさん」と呼び始めた画面](images/0030-claude-tako-san.png)
+
 ---
 
 ← [前の日記 #29 — 古い続きを、勝手に戻さない](0029-dont-restore-the-old-future.md)
