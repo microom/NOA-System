@@ -6,6 +6,8 @@ NOA Systemは、micと二人のAIメンバーが、それぞれ違う役割を�
 
 ## mic
 
+<a href="../about-mic.md"><img src="images/mic-icon.jpg" width="112" alt="mic"></a>
+
 **Project Owner / Game Programmer**
 
 NOA Systemの方向を決め、ゲームを作る感覚と実機での経験をもとに、最後の判断をする人です。
