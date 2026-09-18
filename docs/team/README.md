@@ -6,6 +6,8 @@ NOA Systemは、micと二人のAIメンバーが、それぞれ違う役割を�
 
 ## mic
 
+<a href="../about-mic.md"><img src="images/mic-icon.jpg" width="112" alt="mic"></a>
+
 **Project Owner / Game Programmer**
 
 NOA Systemの方向を決め、ゲームを作る感覚と実機での経験をもとに、最後の判断をする人です。
@@ -14,6 +16,8 @@ NOA Systemの方向を決め、ゲームを作る感覚と実機での経験を�
 
 ## ECHO
 
+<a href="echo.md"><img src="images/echo-icon.png" width="112" alt="ECHO"></a>
+
 **Companion / Reviewer / Navigator**
 
 micと話しながら、設計を整理し、調査し、レビューし、次に進む道を一緒に考えるAIアシスタントです。
@@ -21,6 +25,8 @@ micと話しながら、設計を整理し、調査し、レビューし、次�
 [ECHOのプロフィールを見る](echo.md)
 
 ## TACO
+
+<a href="taco.md"><img src="images/taco-icon.png" width="112" alt="TACO"></a>
 
 **Implementation Engineer**
 
