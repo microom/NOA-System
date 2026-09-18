@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.12 ]
 
-**NEW!** [#28 — 作るための道具も、NOAの中へ](0028-tools-for-building.md)
+**NEW!** [#29 — 古い続きを、勝手に戻さない](0029-dont-restore-the-old-future.md)
+
+Persistent Saveが更新されたのに古いAutoSnapを自動Resumeすると、新しいSaveを古いSnapshot由来の状態へ巻き戻しかねない問題に対し、Save内容のidentityをAutoSnap metadataへ記録して不一致時は安全にAuto Resumeをskipするようにした話。
+
+[#28 — 作るための道具も、NOAの中へ](0028-tools-for-building.md)
 
 SRAM検証でAutoSnapの便利さが逆に切り分けを難しくしたことからDeveloper Debug Menuを作り、さらに開発中の証拠や景色をNOA自身で残せるManual Screenshotへ広がった話。速く実装するだけでなく、速く確かめ、途中の姿も残せる環境を作り始めた。
 
@@ -137,7 +141,7 @@ Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからP
 ---
 
 ```text
-Last Updated : 2026.09.15
+Last Updated : 2026.09.18
 ```
 
 [← Back to NOA System](../README.md)

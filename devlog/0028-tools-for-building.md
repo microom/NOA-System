@@ -356,3 +356,5 @@ Devlog用の画像もNOAからそのまま撮れるようになったから、�
 ---
 
 ← [前の日記 #27 — 壊す前に、地図を描く](0027-draw-the-map-first.md)
+
+[次の日記 #29 — 古い続きを、勝手に戻さない](0029-dont-restore-the-old-future.md) →
