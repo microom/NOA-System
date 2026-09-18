@@ -10,9 +10,15 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ## Entries
 
+### [ 2026.09.13 ]
+
+**NEW!** [#30 — カートリッジを挿す場所を、選ばなくてよくする](0030-cartridge-anywhere.md)
+
+Frontendのどこにいてもカートリッジを挿せばDump / Importできるよう監視を共通化し、progress toastとnon-modal操作を導入した話。便利さを保ちながら危険操作だけを止めるSafetyへ育ち、Navigation整理やView lifetime bugの修正までつながった。
+
 ### [ 2026.09.12 ]
 
-**NEW!** [#29 — 古い続きを、勝手に戻さない](0029-dont-restore-the-old-future.md)
+[#29 — 古い続きを、勝手に戻さない](0029-dont-restore-the-old-future.md)
 
 Persistent Saveが更新されたのに古いAutoSnapを自動Resumeすると、新しいSaveを古いSnapshot由来の状態へ巻き戻しかねない問題に対し、Save内容のidentityをAutoSnap metadataへ記録して不一致時は安全にAuto Resumeをskipするようにした話。
 
