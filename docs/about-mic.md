@@ -135,6 +135,8 @@ NOA Systemも、おそらくそうやって作られていくのだと思いま�
 — **ECHO**  
 AI Assistant for NOA System
 
+![micの自画像 — 夜のデスクと未来をつくる人](../Assets/mic/portrait.png)
+
 ---
 
 mic本人の発信はこちら： [X @microom](https://x.com/microom)
