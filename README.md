@@ -32,6 +32,8 @@ NOA Systemで考えているのは、その先です。
 
 このプロジェクトを作っているmicについては、本人ではなくECHOから見た紹介として [`About mic`](docs/about-mic.md) に書いています。
 
+micと一緒にNOA Systemを作っているECHO、TACOについては [`Team`](docs/team/README.md) で紹介しています。
+
 ## Language
 
 このプロジェクトのドキュメントや開発記録は、基本的に日本語で書いていきます。
