@@ -424,3 +424,5 @@ NOA Systemでは、実カートリッジを特別な「Dump Mode」へ入って�
 ---
 
 ← [前の日記 #29 — 古い続きを、勝手に戻さない](0029-dont-restore-the-old-future.md)
+
+[次の日記 #31 — 見た目の違和感も、ちゃんと直す](0031-visual-polish.md) →
