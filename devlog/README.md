@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.13 ]
 
-**NEW!** [#31 — 見た目の違和感も、ちゃんと直す](0031-visual-polish.md)
+**NEW!** [#32 — 三台目のハードが、NOAに加わった](0032-third-system-pce.md)
+
+実HuCardのread-only acquisitionからPCE RuntimeのPLAY、さらに384 KiB Interval mappingの再構成までを一気につないだ話。三台目のSystemでも共通Session設計がそのまま使え、実機Acceptanceを通じて「DB miss≠dump失敗」や物理layoutの理解も深まった。
+
+[#31 — 見た目の違和感も、ちゃんと直す](0031-visual-polish.md)
 
 Game DetailのMain Visualを、Aspect RatioやTitleとの距離だけでなく、実画像に沿う枠・角丸clip・鏡面反射まで実機feedbackを見ながら整えた話。仕様上は正しくても、実際に見て初めて分かる違和感をAIとの往復で詰めていった。
 
