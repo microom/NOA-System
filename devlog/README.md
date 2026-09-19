@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.13 ]
 
-**NEW!** [#30 — カートリッジを挿す場所を、選ばなくてよくする](0030-cartridge-anywhere.md)
+**NEW!** [#31 — 見た目の違和感も、ちゃんと直す](0031-visual-polish.md)
+
+Game DetailのMain Visualを、Aspect RatioやTitleとの距離だけでなく、実画像に沿う枠・角丸clip・鏡面反射まで実機feedbackを見ながら整えた話。仕様上は正しくても、実際に見て初めて分かる違和感をAIとの往復で詰めていった。
+
+[#30 — カートリッジを挿す場所を、選ばなくてよくする](0030-cartridge-anywhere.md)
 
 Frontendのどこにいてもカートリッジを挿せばDump / Importできるよう監視を共通化し、progress toastとnon-modal操作を導入した話。便利さを保ちながら危険操作だけを止めるSafetyへ育ち、Navigation整理やView lifetime bugの修正までつながった。
 
