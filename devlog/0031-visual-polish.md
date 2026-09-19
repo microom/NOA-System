@@ -345,3 +345,5 @@ Game Detailを見る回数は多いです。
 ---
 
 ← [前の日記 #30 — カートリッジを挿す場所を、選ばなくてよくする](0030-cartridge-anywhere.md)
+
+[次の日記 #32 — 三台目のハードが、NOAに加わった](0032-third-system-pce.md) →
