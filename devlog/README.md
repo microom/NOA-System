@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.13 ]
 
-**NEW!** [#32 — 三台目のハードが、NOAに加わった](0032-third-system-pce.md)
+**NEW!** [#33 — 例外を、同じ形に押し込まない](0033-dont-force-the-exception.md)
+
+ダライアスPLUSの1 MiB rawから、768 KiBのcanonical imageと末尾256 KiBだけのlocal mirrorを実cart evidenceで切り分けた話。似ている例外を既存ruleへ押し込まず、構造的Evidenceとexact hashの両方が成立した時だけKnownへ進めるSafetyを追加した。
+
+[#32 — 三台目のハードが、NOAに加わった](0032-third-system-pce.md)
 
 実HuCardのread-only acquisitionからPCE RuntimeのPLAY、さらに384 KiB Interval mappingの再構成までを一気につないだ話。三台目のSystemでも共通Session設計がそのまま使え、実機Acceptanceを通じて「DB miss≠dump失敗」や物理layoutの理解も深まった。
 
@@ -155,7 +159,7 @@ Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからP
 ---
 
 ```text
-Last Updated : 2026.09.18
+Last Updated : 2026.09.19
 ```
 
 [← Back to NOA System](../README.md)
