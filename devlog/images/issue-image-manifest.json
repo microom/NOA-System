@@ -4,9 +4,17 @@
       "file": "issue_009_01.png",
       "issue": 9
     },
+    "35c9ec65-d315-4078-ab64-c638b2dba53e": {
+      "file": "issue_086_01.png",
+      "issue": 86
+    },
     "455ecb77-7073-4e2c-aae2-339809ca475b": {
       "file": "issue_014_02.png",
       "issue": 14
+    },
+    "8b04af00-2702-4ad5-ac0c-c00761175ec0": {
+      "file": "issue_086_03.png",
+      "issue": 86
     },
     "8d629b76-a498-46c5-b6e7-47be7c7c3ae3": {
       "file": "issue_009_02.png",
@@ -16,9 +24,17 @@
       "file": "issue_014_01.png",
       "issue": 14
     },
+    "ba1c420b-6da4-470c-8ffa-94e67433b035": {
+      "file": "issue_086_04.png",
+      "issue": 86
+    },
     "d174172e-9195-4f89-baac-5e1cf1080536": {
       "file": "issue_009_03.png",
       "issue": 9
+    },
+    "e87808c6-ff68-44fd-9b81-85161d5ddfff": {
+      "file": "issue_086_02.png",
+      "issue": 86
     }
   },
   "version": 1
