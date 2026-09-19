@@ -10,9 +10,15 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ## Entries
 
+### [ 2026.09.14 ]
+
+**NEW!** [#34 — メニューを足したら、画面の寿命が見えた](0034-menu-revealed-lifetime-rule.md)
+
+NOA Menu / Settings shellを追加したら、入力持ち越しやESCの二重処理、さらにSession Exit時のuse-after-freeまで見つかった話。小さなslide-out menuから、Primary ViewとSystem Utilityの責務、そして「navigation stackを変え得るView call後はCurrentViewを取り直す」というFrontendのlifetime ruleが固まった。
+
 ### [ 2026.09.13 ]
 
-**NEW!** [#33 — 例外を、同じ形に押し込まない](0033-dont-force-the-exception.md)
+[#33 — 例外を、同じ形に押し込まない](0033-dont-force-the-exception.md)
 
 ダライアスPLUSの1 MiB rawから、768 KiBのcanonical imageと末尾256 KiBだけのlocal mirrorを実cart evidenceで切り分けた話。似ている例外を既存ruleへ押し込まず、構造的Evidenceとexact hashの両方が成立した時だけKnownへ進めるSafetyを追加した。
 
