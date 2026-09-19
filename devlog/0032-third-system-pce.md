@@ -217,7 +217,7 @@ Systemが三つになっても、PLAY経路そのものをPCE専用に作り直�
 
 まで確認しました。
 
-![PCE running in NOA System](https://github.com/user-attachments/assets/4c5170ff-ea06-4371-b1d8-fda1d52ca260)
+![PCE running in NOA System](images/issue_087_01.png)
 
 <sub>※ 掲載している画面はNOA Systemの開発・動作紹介を目的としたものです。画面内に表示されるゲーム映像・タイトル等の著作権および関連する権利は、それぞれの権利者に帰属します。</sub>
 
@@ -347,6 +347,12 @@ PLAY
 **そのカートリッジがどういう構造なのかまで理解できた**
 
 感じがあります。
+
+実際に読み取った「はにいおんざろおど」も、正式名称と384 KiBのcanonical sizeでGame Detailへ戻ってきました。
+
+![Hanii on the Road — physical HuCardから読み取った後のGame Detail](images/issue_087_02.png)
+
+<sub>※ 掲載している画面はNOA Systemの開発・動作紹介を目的としたものです。画面内に表示されるゲーム映像・タイトル等の著作権および関連する権利は、それぞれの権利者に帰属します。</sub>
 
 ---
 
