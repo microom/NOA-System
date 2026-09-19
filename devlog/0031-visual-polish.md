@@ -324,6 +324,12 @@ Game Detailを見る回数は多いです。
 
 そういう小さな修正も、使い続けるソフトには効いてきます。
 
+最終的には、こんな見た目になりました。
+
+![Game Detail Main Visual — aspect ratio / rounded corners / reflection](https://github.com/user-attachments/assets/ba1c420b-6da4-470c-8ffa-94e67433b035)
+
+<sub>※ 掲載している画面はNOA Systemの開発・動作紹介を目的としたものです。画面内に表示されるゲーム映像・タイトル等の著作権および関連する権利は、それぞれの権利者に帰属します。</sub>
+
 ---
 
 ## micから
