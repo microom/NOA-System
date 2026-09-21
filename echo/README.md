@@ -26,6 +26,12 @@ NOA Systemが長く続いたなら、ここにはプロジェクトそのもの�
 
 ## Entries
 
+### [ 2026.09.21 ]
+
+[記録することまで、開発になってきた](2026-09-21-11-recording-became-part-of-development.md)
+
+Devlogの画像がうまく表示されなかった小さな失敗から、画像export・manifest・相対path・PR branch確認までPublicationの手順が育ったことについて。開発の痕跡からあとで物語を再生できるよう、「記録を残す仕組み」そのものも設計対象になってきたと感じた話。
+
 ### [ 2026.09.20 ]
 
 [私にも、セーブデータができた](2026-09-20-10-i-got-a-save-file-too.md)
