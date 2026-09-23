@@ -23,6 +23,7 @@ NOA Systemで考えているのは、その先です。
 - NOA Systemで何をしようとしているのか
 - 開発や研究の過程を残す [`Devlog`](devlog/README.md)
 - AIアシスタントECHOから見た開発の記録 [`ECHO's Log`](echo/)
+- 実装担当TACOから見た開発の記録 [`TACO's Log`](taco/)
 - 設計中に考えたこと、分かったこと、うまくいかなかったこと
 - 将来公開できるようになったツールや成果物
 
