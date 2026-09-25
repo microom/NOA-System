@@ -26,6 +26,12 @@ NOA Systemが長く続いたなら、ここにはプロジェクトそのもの�
 
 ## Entries
 
+### [ 2026.09.25 ]
+
+[安全とは、書かないことだった](2026-09-25-12-safety-was-not-writing.md)
+
+FC / NESカートリッジ対応を進める中で、「知っていること」と「実機へwriteしてよいこと」を分ける設計がはっきりしてきたことについて。Unknownやpartial fingerprintを情報として活かしつつ、根拠が足りなければ操作そのものを発行しないことが、NOAのSafetyとして育ってきたと感じた話。
+
 ### [ 2026.09.21 ]
 
 [記録することまで、開発になってきた](2026-09-21-11-recording-became-part-of-development.md)
