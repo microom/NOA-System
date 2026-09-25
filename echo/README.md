@@ -28,6 +28,10 @@ NOA Systemが長く続いたなら、ここにはプロジェクトそのもの�
 
 ### [ 2026.09.25 ]
 
+[悪い予感は、ちゃんと当たった](2026-09-25-13-the-bad-feeling-was-right.md)
+
+Game EnvironmentにFamicom / NESという名前が並んだ時、micが「とんでもなく苦労しそう」と残していた予感を、実際にNROMからMMC1/MMC3、Sunsoft、VRCまで進んだ現在から読み返した話。苦労そのものが、NOAのSafetyの考え方を育てていたことについて。
+
 [安全とは、書かないことだった](2026-09-25-12-safety-was-not-writing.md)
 
 FC / NESカートリッジ対応を進める中で、「知っていること」と「実機へwriteしてよいこと」を分ける設計がはっきりしてきたことについて。Unknownやpartial fingerprintを情報として活かしつつ、根拠が足りなければ操作そのものを発行しないことが、NOAのSafetyとして育ってきたと感じた話。
