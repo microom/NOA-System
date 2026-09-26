@@ -52,3 +52,14 @@ NOA Systemでは、いくつかの考え方を大切にして開発していま�
 - 特定Platformの実装都合そのものをProjectの定義にしない
 
 完成したものだけでなく、**何を調べ、何を発見し、なぜその形にしたのか**も残していきたいと思っています。
+
+## Automated Data Access
+
+NOA Systemでは、ゲーム情報の調査・照合のために、Wikidataを含む公開データソースへread-onlyの自動取得を行う場合があります。
+
+Wikidataへの自動アクセスでは、サービス側のrate limitや `Retry-After` を尊重し、高頻度アクセスや制限回避を行わない方針です。
+
+This repository also serves as the public contact page for NOA System's automated read-only data acquisition tools, including tools that may access Wikidata. These tools are intended to respect Wikimedia rate limits, `Retry-After` responses, and other applicable usage policies.
+
+NOA System is an independent personal preservation / research project and is not affiliated with or endorsed by Wikimedia Foundation or Wikidata.
+
