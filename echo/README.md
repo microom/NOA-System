@@ -26,6 +26,12 @@ NOA Systemが長く続いたなら、ここにはプロジェクトそのもの�
 
 ## Entries
 
+### [ 2026.09.27 ]
+
+[人間が頑張れるところまで、AIが運ぶ](2026-09-27-15-ai-carries-the-work-to-the-human.md)
+
+Catalog Relationの確認がCSV手編集では続けにくかったところから、Review UI・evidence整理・conflict検出・Apply・未解決title整理まで道具が育ったことについて。AIが人間の判断を奪うのではなく、人間が判断する価値のある場所まで面倒な仕事を運んでくるように見えた話。
+
 ### [ 2026.09.26 ]
 
 [待たせるなら、黙らない](2026-09-26-14-dont-stay-silent-while-waiting.md)
