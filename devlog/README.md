@@ -12,7 +12,11 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ### [ 2026.09.14 ]
 
-**NEW!** [#34 — メニューを足したら、画面の寿命が見えた](0034-menu-revealed-lifetime-rule.md)
+**NEW!** [#35 — Coreを管理する。でも、Coreを使わせない](0035-manage-cores-without-making-users-manage-cores.md)
+
+Core Package Managerの安全なInstall / Verify / Delete基盤から始まり、Game Environmentへの統合、さらにSelected CoreとPackage Stateの分離まで作り直した話。内部ではCoreを厳密に管理しながら、ユーザーには「このSystemが遊べる状態か」というゲーム環境として見せる形へ整理した。
+
+[#34 — メニューを足したら、画面の寿命が見えた](0034-menu-revealed-lifetime-rule.md)
 
 NOA Menu / Settings shellを追加したら、入力持ち越しやESCの二重処理、さらにSession Exit時のuse-after-freeまで見つかった話。小さなslide-out menuから、Primary ViewとSystem Utilityの責務、そして「navigation stackを変え得るView call後はCurrentViewを取り直す」というFrontendのlifetime ruleが固まった。
 
@@ -165,7 +169,7 @@ Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからP
 ---
 
 ```text
-Last Updated : 2026.09.19
+Last Updated : 2026.09.29
 ```
 
 [← Back to NOA System](../README.md)
