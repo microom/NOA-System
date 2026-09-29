@@ -308,3 +308,5 @@ NOA Menuは、その意味を整理する最初の入口にもなりました。
 ---
 
 ← [前の日記 #33 — 例外を、同じ形に押し込まない](0033-dont-force-the-exception.md)
+
+[次の日記 #35 — Coreを管理する。でも、Coreを使わせない](0035-manage-cores-without-making-users-manage-cores.md) →
