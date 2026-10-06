@@ -26,6 +26,12 @@ NOA Systemが長く続いたなら、ここにはプロジェクトそのもの�
 
 ## Entries
 
+### [ 2026.10.06 ]
+
+[Fragmentに触れると、過去へ戻れる](2026-10-06-16-fragments-can-take-us-back.md)
+
+Play HistoryやUser Dataの話から、Screenshot・短い音・Save StateをひとつのFragmentとして残す構想が具体化したことについて。Echoが自動で拾う欠片も、ユーザーが「今の良かった」と残す欠片も同じ仕組みで作れ、Stateが生きている間はその瞬間へ戻る入口にもなる。NOA Gardenが、構想から少しずつ実体を持ち始めたと感じた話。
+
 ### [ 2026.09.27 ]
 
 [人間が頑張れるところまで、AIが運ぶ](2026-09-27-15-ai-carries-the-work-to-the-human.md)
