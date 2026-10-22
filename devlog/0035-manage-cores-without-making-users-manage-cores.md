@@ -415,3 +415,5 @@ Game Environmentは、そんな画面になり始めています。
 ---
 
 ← [前の日記 #34 — メニューを足したら、画面の寿命が見えた](0034-menu-revealed-lifetime-rule.md)
+
+[次の日記 #36 — 10のハードと、6つのCore](0036-ten-systems-six-cores.md) →
