@@ -55,6 +55,32 @@
     "84805236-4ea5-47c3-9c26-3c7c080881f7": {
       "file": "issue_098_01.png",
       "issue": 98
+    },
+    "94e81653-1d36-4b1d-8d37-ed28ff0bb6ef": {
+      "file": "issue_102_01.png",
+      "issue": 102
+    },
+    "3b6880e8-2a12-4c3d-b0bc-d79ed9a530ab": {
+      "file": "issue_104_01.png",
+      "issue": 104
+    },
+    "fc3fcb89-35e1-4552-b39c-8169ab35e4a3": {
+      "file": "issue_104_02.png",
+      "issue": 104
+    },
+    "e5caebef-32e8-4e0b-8ee4-c0b2a33429ca": {
+      "file": "issue_105_01.png",
+      "issue": 105
+    },
+    "bd451eed-17e8-4033-b2e3-e0086dd59f2d": {
+      "file": "issue_105_02.png",
+      "issue": 105,
+      "redacted": true
+    },
+    "f7cf0e9c-2b47-42e3-ad7c-cc08ce94d4ac": {
+      "file": "issue_105_03.png",
+      "issue": 105,
+      "redacted": true
     }
   },
   "version": 1

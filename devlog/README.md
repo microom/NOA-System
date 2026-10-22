@@ -10,9 +10,25 @@ Devlogの番号はIssue番号とは切り離した、公開記事としての通
 
 ## Entries
 
+### [ 2026.09.16 ]
+
+**NEW!** [#38 — 開発PCの外でも、ゲーム機になった](0038-outside-the-development-pc.md)
+
+開発PCの外でも動くPortable Test Buildを作り、Windows handheldで実カートリッジの読み出しからPLAYまで確かめた話。保存先の独立、Coreのhash drift、照合用Databaseを含めた個人利用試験を通して、「動く」と「公開配布できる」の間も整理した。
+
+### [ 2026.09.15 ]
+
+[#37 — 借りている部品の、来た道を残す](0037-remember-where-the-parts-came-from.md)
+
+外部ライブラリ、フォント、Coreの出所と利用条件を棚卸しした話。フォルダを見るだけでは分からない依存関係や、取得時に残し忘れたrevisionを辿り、次の更新や配布判断に戻ってこられる記録を整えた。
+
+[#36 — 10のハードと、6つのCore](0036-ten-systems-six-cores.md)
+
+Game Environmentへ10 Systemと6 Core Packageを揃えた話。共有Coreを同じ画面で何度もVerifyしていた引っかかりを見直し、環境の準備とPLAY対応を区別しながら、「簡単に整える」入口を広げた。
+
 ### [ 2026.09.14 ]
 
-**NEW!** [#35 — Coreを管理する。でも、Coreを使わせない](0035-manage-cores-without-making-users-manage-cores.md)
+[#35 — Coreを管理する。でも、Coreを使わせない](0035-manage-cores-without-making-users-manage-cores.md)
 
 Core Package Managerの安全なInstall / Verify / Delete基盤から始まり、Game Environmentへの統合、さらにSelected CoreとPackage Stateの分離まで作り直した話。内部ではCoreを厳密に管理しながら、ユーザーには「このSystemが遊べる状態か」というゲーム環境として見せる形へ整理した。
 
@@ -169,7 +185,7 @@ Dummy Sessionの向こう側へ初めて実ゲームをつなぎ、ImportからP
 ---
 
 ```text
-Last Updated : 2026.09.29
+Last Updated : 2026.10.22
 ```
 
 [← Back to NOA System](../README.md)
