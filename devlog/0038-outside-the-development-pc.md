@@ -110,6 +110,16 @@ SFC、Mega Drive、PC Engine。
 
 Screenshot、AutoSnap、手動Snapの生成も確認しています。
 
+![Windows handheld上でSFCのゲームが動いている実機写真](images/issue_105_02.png)
+
+*持ち出した先でもPLAYの向こうにゲーム画面が出たところ。写真中の個人用パスと開発用の表示名は黒塗りしています。*
+
+![同じ実機でNOA SystemのGame DetailとPreviewが表示されている写真](images/issue_105_03.png)
+
+*Game Detailへ戻るところも実機で確認。個人環境が写り込んだ箇所のみ黒塗りし、ゲーム画面やUIは変更していません。*
+
+<sub>※ 掲載している画面はNOA Systemの開発・動作紹介を目的としたものです。画面内に表示されるゲーム映像・タイトル等の著作権および関連する権利は、それぞれの権利者に帰属します。</sub>
+
 ここで確認したのは、この三つのSystemの実機利用です。
 
 全Systemを一度に検証できた、という話ではありません。
