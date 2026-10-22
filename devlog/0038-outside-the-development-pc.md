@@ -82,6 +82,10 @@ ZIPを展開して起動する。
 
 GBA向けのmGBAだけ成功し、ほかは失敗する。
 
+![Portable検証中、Game Boy AdvanceだけReadyで他のSystemがNot Installedになっている画面](images/issue_105_01.png)
+
+*検証途中のGame Environment。この表示だけでは、Portable側の問題か配布物側の問題か、まだ分かりません。*
+
 新しく作ったPortable版の問題に見えましたが、調べると開発PCでも再現しました。
 
 配布元の「latest」が更新され、登録していたhashと取得したファイルが一致しなくなっていたのです。

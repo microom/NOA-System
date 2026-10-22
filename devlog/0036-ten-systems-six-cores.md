@@ -18,6 +18,10 @@ Mega Drive / Genesis、PC Engine / SuperGrafx、Game Gear、Master System / Mark
 
 10のSystemが、同じGame Environmentに並びました。
 
+![10 Systemが並んだGame Environment。まだCore未選択や未InstallのSystemもある](images/issue_102_01.png)
+
+*最初に揃えたのは、10の名前と同じ入口。赤い表示には、まだ準備が必要な状態が残っています。*
+
 ここで、表示するSystemの一覧と、実際にゲーム起動まで接続できているSystemの一覧は分けています。
 
 **名前を追加しただけで、対応が完了したことにはしない。**
@@ -110,6 +114,10 @@ GBとGBCも、一つのSameBoy Packageを共有します。
 
 Packageは全部で6つです。
 
+![6 Core Packageの準備を終え、10 SystemすべてがReadyになったGame Environment](images/issue_104_01.png)
+
+*一覧の全SystemでPackageがReadyに。ただし、ゲーム起動や取り込みの対応完了とは別です。*
+
 Install、Verify、Delete、再Install。
 
 共有するSystemへの状態反映。
@@ -156,6 +164,10 @@ Install、Verify、Delete、再Install。
 今回もタコ( Claude )はとてもいい仕事をしてくれて大助かりです。
 
 --- mic
+
+![NOA Systemの開発を手伝うタコさんのイメージ](images/issue_104_02.png)
+
+*この時にEchoが描いたタコさん。micは「僕もとてもお気に入りです」と記録していました。*
 
 ---
 
